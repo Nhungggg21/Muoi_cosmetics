@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muoi Cosmetics</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <link href="./assets/owlCarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--newsdetails-->
+    <link rel="stylesheet" href="./assets/css/newsdetail.css">
+    <!-- Owl caroucel Js-->
+    <script src="./assets/owlCarousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <!--logo-->
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header_logo">
+                    <img src="./assets/img/Muối Cosmetics (3).png" alt="" class="logo" style="width: 200px; height: auto;">
+                    
+                </a>
+                <!--Thanh tìm kiếm-->
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Đăng ký đăng nhập-->
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Giỏ hàng -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">0</div>
+                    <div class="header__cart-wrap">
+                        <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a>
+                        <a href="pay.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="Gioithieu.html" class="header__nav-link">Hộp quà Kos</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="allproduct.html" class="header__nav-link">Sản Phẩm</a>
+                    <div class="sub-nav-wrap grid wide">
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Son</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-MAC.html" class="sub-nav__link">MAC</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-3CE.html" class="sub-nav__link">3CE</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-DIOR.html" class="sub-nav__link">Dior</a>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Cushion</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-April Skin.html" class="sub-nav__link">April Skin</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Missha.html" class="sub-nav__link">Missha</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Laneige.html" class="sub-nav__link">Laneige </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Phấn</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Maybelline.html" class="sub-nav__link">Maybelline</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Shiseido.html" class="sub-nav__link">Shiseido</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Innisfree.html" class="sub-nav__link">Innisfree</a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Kem dưỡng</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Neutrogena.html" class="sub-nav__link">Neutrogena </a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-CeraVe.html" class="sub-nav__link">CeraVe</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Klairs.html" class="sub-nav__link">Klairs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">Tin Tức</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/header end-->
+
+    <!--newsdetail-->
+    <div class="main">
+        <div class="grid wide">
+            <div class="main__taskbar">
+                <div class="main__breadcrumb">
+                    <div class="breadcrumb__item">
+                        <a href="index.html" class="breadcrumb__link">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="news.html" class="breadcrumb__link">Tin tức</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="newsdetails3.html" class="breadcrumb__link">Bí kíp trị mụn an toàn hiệu quả cho tuổi dậy thì</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tit">
+            <h1>Bí kíp trị mụn an toàn hiệu quả cho tuổi dậy thì</h1>
+                <p> By: Muối Cosmetics </p>
+            </div>
+
+            <section class="introduction">
+                <h2>Những nguy hiểm khi trị mụn sai cách</h2>
+                <p>Đa số chúng ta khi trải qua tuổi dậy thì (11 – 17 tuổi) đều gặp phải 1 vấn đề là xuất hiện mụn trên mặt. 
+                Về cơ bản, mụn sẽ có xu hướng giảm dần khi bước qua giai đoạn này. Tuy nhiên rất ít bạn trẻ có thể làm thinh chờ qua tuổi dậy thì. 
+                Việc thường xuyên sờ tay lên mặt hay tự bôi thuốc lung tung sẽ khiến cho mụn ngày càng nghiêm trọng và khó chữa.</p>
+                <p>Khi mụn đã quá nặng, ngoài việc gây thâm sẹo, rỗ khiến da xấu xí còn có thể gây ra tình trạng nhiễm trùng da rất nguy hiểm.
+                    Tình trạng mụn lâu ngày còn hình thành tâm lý tự ti, mặc cảm khi đối diện với người khác. 
+                    Vốn đã ở trong lứa tuổi nhạy cảm lại thêm cả việc này càng ảnh hưởng nghiêm trọng đến tâm lý tuổi dậy thì.</p>
+                <img width="500px" src="https://vinmec-prod.s3.amazonaws.com/images/20191125_082858_949362_mun.max-1800x1800.jpg" alt="">
+                <p>Dậy thì là lứa tuổi rất dễ lên mụn. Tuy nhiên trị mụn ở tuổi dậy thì sao cho an toàn, hiệu quả lại luôn là vấn đề rất nan giải. 
+                    Bởi nếu không được điều trị kịp thời và đúng cách thì không chỉ khiến cho bạn trở nên tự ti mà còn ảnh hưởng đến thẩm mỹ và sức khỏe da liễu sau này. 
+                    Dưới đây là một số bí kíp trị mụn an toàn hiệu quả cho các bạn đang ở trong tuổi dậy thì.</p>
+            </section>
+
+            <section class="schedule">
+                <h2>Bí kíp trị mụn an toàn hiệu quả cho tuổi dậy thì</h2>
+                <h3>1. Trị mụn an toàn hiệu quả tuổi dậy thì bằng mặt nạ tự nhiên từ căn bếp</h3>
+                <p>Đây được coi là phương pháp trị mụn đơn giản và tiết kiệm nhất. 
+                    Tuy nhiên để các loại nguyên liệu tự nhiên này phát huy tác dụng thì cần phải rất kiên trì.</p>
+
+                <p><u>Mặt nạ nghệ</u></p>
+                <img width="500px" src="https://myphamome.com/wp-content/uploads/2022/10/bi-kip-tri-mun-cho-tuoi-day-thi-1-1-768x565.webp" alt="">
+                <p>Từ ngàn xưa, nghệ đã được biết đến với công dụng kháng khuẩn, tiêu viêm, làm lành vết thương và tái tạo da. Đơn giản nhất bạn có thể xát nghệ trực tiếp lên nốt mụn để giảm sưng tấy và chống thâm. 
+                    Để tăng hiệu quả, bạn hãy giã nghệ tươi, lọc lấy nước rồi hòa cùng với 2 thìa mật ong để tạo thành hỗn hợp sệt mịn.</p>
+                <p>Sau khi làm sạch da mặt, bạn thoa đều hỗn hợp này lên da, massage nhẹ nhàng rồi thư giãn trong 20 – 30 phút. 
+                    Sau đó bạn rửa sạch lại với nước là được. Với cách làm này, bạn hãy áp dụng 2 – 3 lần/ tuần để đạt hiệu quả.</p>
+
+                <p><u>Mặt nạ nha đam</u></p>
+                <p>Tương tự như nghệ, Gel nha đam kháng khuẩn cho da rất tốt. Không chỉ vậy, đắp mặt nạ nha đam thường xuyên còn làm dịu da, giảm mụn, se khít lỗ chân lông,….</p>
+                <p>Bạn có thể lọc lấy phần gel nha đam tươi, xay nhuyễn rồi đắp lên vùng da bị mụn. Bạn massage da nhẹ nhàng để dưỡng chất thấm sâu vào da, 
+                    sau đó nằm thư giãn trong khoảng 15 – 20 phút rồi rửa lại mặt với nước mát. Ưu điểm của nha đam là chất gel trong, thơm mát, khi thoa lên mặt dễ rửa sạch. 
+                    Áp dụng cách này 3 lần/ tuần và có thể sử dụng để trị mụn tuổi dậy thì nam và cả nữ giới.</p>
+
+                <p><u>Mặt nạ dầu dừa</u></p>
+                <p>Khi bôi dầu dừa lên da, bạn sẽ có cảm giác da bị nhờn khó chịu. Tuy vậy, trên thực tế, trong dầu dừa có 1 lượng lớn acid lauric, capric, monolaurin. 
+                    Đây đều là những hoạt chất có tác dụng giảm viêm, kiểm soát lượng dầu nhờn và giải độc cho da.</p>
+                <p>Sau bước làm sạch da, bạn có thể dùng dầu dừa bôi trực tiếp lên vùng da bị mụn. Chúng mình cũng massage nhẹ nhàng cho da rồi để da nghỉ trong 15 – 20 phút, sau đó rửa sạch lại với nước.</p>
+                <p>Dầu dừa rất lành tính nên chúng ta có thể sử dụng hàng ngày mà không gây ảnh hưởng hay kích ứng gì cho da.</p>
+
+                <h3>2. Trị mụn an toàn hiệu quả tuổi dậy thì bằng xông hơi</h3>
+                <p>Bên cạnh các loại mặt nạ tự nhiên kể trên, xông hơi da mặt cũng là một phương pháp trị mụn an toàn hiệu quả cho tuổi dậy thì.</p>
+                <p>Bạn có thể lấy các nguyên liệu tự nhiên quen thuộc nấu thành nước để xông hơi mặt và thực hiện theo các bước sau:</p>
+                <ul>
+                    <li>Chuẩn bị các nguyên liệu cần thiết như lá tía tô, củ sả, vỏ bưởi, rau diếp cá… Lưu ý chọn mua nguyên liệu sạch, rửa sạch với nước kỹ càng.</li>
+                    <li>Đun sôi nước trong khoảng 10 phút, dùng đũa đảo đều rồi đun với lửa nhỏ thêm khoảng 5 phút nữa rồi tắt bếp. Mở vung để nước nguội xuống khoảng 75 – 80 độ C thì dùng được.</li>
+                    <li>Sau bước làm sạch da mặt, bạn đưa mặt lại gần nồi nước. Bạn lấy một khăn tắm cotton to, sạch trùm kín đầu rồi bắt đầu xông trong khoảng 15 – 20 phút.</li>
+                    <li>Sau khi xông xong, để da khô tự nhiên rồi rửa mặt với nước mát để se khít lỗ chân lông. Bạn có thể bôi thêm một ít kem dưỡng để làm dịu da.</li>
+                </ul>
+
+                <h3>3. Trị mụn an toàn hiệu quả tuổi dậy thì bằng AHA và BHA</h3>
+                <p>Ở độ tuổi dậy thì, nguyên nhân gây mụn hàng đầu được các bác sĩ đưa ra là tình trạng rối loạn nội tiết tố dẫn đến mụn. 
+                    Cộng thêm làn da của các bạn ở tuổi này rất mỏng manh, chưa hoàn thiện nên chúng mình không nên lạm dụng các loại mỹ phẩm trị mụn. </p>
+                <img width="500px" src="https://myphamome.com/wp-content/uploads/2022/10/tay-te-bao-chet-hoa-hoc-19-jpg-1621052785-15052021112625.webp" alt="">
+                <p>Để giải quyết vấn đề mụn ở tuổi dậy thì, các bạn chỉ nên tập trung vào bước làm sạch da. Nếu da được làm sạch đúng cách từ sâu bên trong lỗ chân lông sẽ tiết chế được hoạt động của các tuyến bã nhờn, ức chế sự hình thành và phát triển của mụn.</p>
+                <p>Hiện nay, việc sử dụng AHA – BHA được coi là phương pháp làm sạch da điều trị mụn an toàn và hiệu quả nhất cho tuổi dậy thì. Bản thân AHA – BHA là các acid nhẹ có tác dụng làm sạch. 
+                    Các nghiên cứu đã chứng minh rằng AHA – BHA có tác dụng làm sáng da, kháng khuẩn, chống viêm, tẩy tế bào chết, hỗ trợ điều trị mụn, giảm thâm, giảm sẹo rỗ.</p>
+                <p>Tuy nhiên, ở lứa tuổi dậy thì, các bạn chỉ nên dùng AHA BHA ở nồng độ vừa phải. Việc dùng AHA BHA quá đà không chỉ không có tác dụng gì, mà còn gây tổn thương nghiêm trọng cho da, đặc biệt là các bạn đang ở lứa tuổi nhạy cảm.</p>
+                <p>Theo các chuyên gia da liễu, tuổi dậy thì chỉ nên sử dụng các sản phẩm có AHA – BHA thấp, tầm 5% và 0.5% là vừa đủ làm sạch da mà vẫn điều trị da mụn hiệu quả.</p>
+            </section>
+
+            <section class="services">
+                <h2>Sản phẩm khuyên dùng</h2>
+                <h3>Toner tẩy da chết Reason ABeauty</h3>
+                <p>Reason Abeauty là tẩy da chết dạng lỏng hiếm hoi trên thị trường có AHA – BHA rất thấp, chỉ 5% và 0,5%. 
+                    Tôn chỉ của hãng là mang lại hiệu quả an toàn, dài lâu và bền vững chứ không tập trung vào việc mang lại hiệu quả trước mắt như các hãng khác đang làm.</p>
+                <img width="500px" src="https://myphamome.com/wp-content/uploads/2022/10/tay-te-bao-chet-hoa-hoc-768x511.webp" alt="">
+
+                <p>Reason Abeauty giúp loại bỏ sạch tế bào chết, bụi bẩn, bã nhờn, dầu thừa sâu trong lỗ chân lông, giúp da dễ dàng hấp thụ các dưỡng chất trong những bước chăm sóc tiếp theo và hỗ trợ trị mụn hiệu quả. 
+                    Sản phẩm đã vượt qua rất nhiều kiểm nghiệm nghiêm ngặt, an toàn với mọi làn da, kể cả da tuổi dậy thì hay da nhạy cảm.</p>
+            </section>
+        </div>
+    </div>                  
+    <!--newsdetail end-->
+
+    <!--footer-->
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Menu</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm bán chạy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm mới</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Dưỡng da</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Trang điểm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <a href="contact.html" class="footer__title"><h3 >Liên hệ</h3></a> 
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">
+                                    <i class="fas fa-map-marked-alt"></i> 12, Chùa Bộc, Quang Trung, Đống Đa, Hà Nội
+                                </span>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-phone"></i> 0378998765
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-envelope"></i> muoicosmetics@gmail.com
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <div class="social-group">
+                                <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-youtube"></i>  
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Modal Form -->
+<div class="ModalForm">
+    <!-- form signup -->
+    <div class="modal" id="my-Register">
+        <a href="#" class="overlay-close"></a>
+      <div class="authen-modal register">
+            <div class="signup">
+                <div class="signup__container">
+                    <h1>Đăng Ký</h1>
+                    <form action="">
+                    <!--<h5>Họ tên</h5>--> 
+                        <input id="username" type="text" class="input-signup-username" placeholder="Họ tên*"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-signup-email" placeholder="Email*"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-signup-password" placeholder="Password*"/>
+                        <!--<h5>Confirm Password</h5>-->
+                        <input id="confirmpassword" type="password" class="input-signup-confirmpassword" placeholder="Confirm Password*"/>
+                        
+                        <button id="btn" type="submit" class="signup__signInButton">Đăng Ký</button>
+                    </form>
+                    <a href="#my-Login" class="signup__registerButton">Đăng Nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- form login -->
+    <div class=" modal" id="my-Login">
+        <a href="#" class="overlay-close"></a>
+        <div class="authen-modal register">
+            <div class="login">
+                <div class="login__container">
+                    <h1>Đăng Nhập</h1>
+                    <form action="">
+                        <!--<h5>Họ tên</h5>-->
+                        <input id="username" type="text" class="input-login-username" placeholder="Họ tên*"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-login-email" placeholder="Email*"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-login-password" placeholder="Password*"/>
+                        <div class="forget">
+                            <label for=""><input type="checkbox" id="rememberMe" class="remember">Remember</label>
+                            <a href="#quenmatkhau">Forget password</a>
+                        </div>
+                        <button type="submit" class="login__signInButton">Đăng Nhập</button>
+                    </form>
+                    <a href="#my-Register" class="login__registerButton">Create a new account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="up-top" id="upTop" onclick="goToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</div>
+
+    <script>
+        $('.owl-carousel.hight').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+        $('.owl-carousel.news').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+        $('.owl-carousel.bands').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    </script>
+    <!-- Script common -->
+    <script src="assets/js/signup.js"></script>
+    <script src="assets/js/login.js"></script>
+    <script src="./assets/js/homeScript.js"></script>
+    <script src="./assets/js/commonscript.js"></script>
+    
+</body>
+</html>
+
+    

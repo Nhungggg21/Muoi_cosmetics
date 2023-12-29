@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muoi Cosmetics</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <link href="./assets/owlCarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--newsdetails-->
+    <link rel="stylesheet" href="./assets/css/newsdetail.css">
+    <!-- Owl caroucel Js-->
+    <script src="./assets/owlCarousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <!--logo-->
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header_logo">
+                    <img src="./assets/img/Muối Cosmetics (3).png" alt="" class="logo" style="width: 200px; height: auto;">
+                    
+                </a>
+                <!--Thanh tìm kiếm-->
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Đăng ký đăng nhập-->
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Giỏ hàng -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">0</div>
+                    <div class="header__cart-wrap">
+                        <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a>
+                        <a href="pay.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="Gioithieu.html" class="header__nav-link">Hộp quà Kos</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="allproduct.html" class="header__nav-link">Sản Phẩm</a>
+                    <div class="sub-nav-wrap grid wide">
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Son</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-MAC.html" class="sub-nav__link">MAC</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-3CE.html" class="sub-nav__link">3CE</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-DIOR.html" class="sub-nav__link">Dior</a>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Cushion</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-April Skin.html" class="sub-nav__link">April Skin</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Missha.html" class="sub-nav__link">Missha</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Laneige.html" class="sub-nav__link">Laneige </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Phấn</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Maybelline.html" class="sub-nav__link">Maybelline</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Shiseido.html" class="sub-nav__link">Shiseido</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Innisfree.html" class="sub-nav__link">Innisfree</a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Kem dưỡng</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Neutrogena.html" class="sub-nav__link">Neutrogena </a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-CeraVe.html" class="sub-nav__link">CeraVe</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Klairs.html" class="sub-nav__link">Klairs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">Tin Tức</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/header end-->
+
+    <!--newsdetail-->
+    <div class="main">
+        <div class="grid wide">
+            <div class="main__taskbar">
+                <div class="main__breadcrumb">
+                    <div class="breadcrumb__item">
+                        <a href="index.html" class="breadcrumb__link">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="news.html" class="breadcrumb__link">Tin tức</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="newsdetails4.html" class="breadcrumb__link">Trọn bộ sản phẩm chăm da sáng mịn, sạch thâm mụn, đều màu của Make9</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tit">
+            <h1>Trọn bộ sản phẩm chăm da sáng mịn, sạch thâm mụn, đều màu của Make9</h1>
+                <p> By: Muối Cosmetics </p>
+            </div>
+
+            <section class="introduction">
+                <p><em>Một làn da trắng sáng, mịn màng sẽ luôn cần có 1 chu trình skincare phù hợp. 
+                    Không có làn da nào không chăm sóc mà lại đẹp cả. Nhưng skincare như thế nào? và dùng sản phẩm nào phù hợp để có được làn da hồng hào, mịn màng?</em></p>
+                <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/11/Web-2.jpg" alt="">
+            
+                <p>Hôm nay, Muối Cosmetics sẽ giới thiệu đến bạn 1 chu trình skincare giúp chăm da, giảm thâm mụn và nuôi dưỡng làn da đều màu. Nổi bật với những dòng sản phẩm thuần chay, mang lại hiệu quả nhanh chóng cùng sự lành tính, 
+                    các sản phẩm đến từ thương hiệu Make9 luôn là sự lựa chọn của nhiều phụ nữ, đặc biệt là ở thị trường Hàn Quốc.</p>
+                <p>Và chu trình mà Ome Cosmetic muốn giới thiệu chính là những sản phẩm từ thương hiệu Make9 này. Chu trình gồm có 4 bước đơn giản, kết hợp cùng 4 loại sản phẩm khác nhau, tuy nhiên vẫn đảm bảo hiệu quả và lành tính, kể cả đối với những làn da nhạy cảm nhất. </p>
+            </section>
+
+            <section class="schedule">
+                <h3>Bước 1: Tẩy da chết đường đen – Black sugar peeling serum</h3>
+                    <p>Sau làm sạch da cơ bản với sữa rửa mặt, sử dụng tẩy da chết sẽ giúp loại bỏ lớp da chết trên da mặt, từ đó làm sạch sâu làn da, giúp cho lỗ chân lông thông thoáng. 
+                        Đồng thời, bước này cũng giúp hỗ trợ giảm thâm, đem lại cho làn da trắng sáng tự nhiên.</p>
+                    <p>Bên cạnh những công dụng cơ bản của tẩy da chết thông thường, sản phẩm Make9 Black Sugar Peeling Serum còn mang nhiều ưu điểm vượt trội hơn so với các sản phẩm thông thường. 
+                        Nếu như các loại tẩy da chết thông thường, thường gây tình trạng bong tróc, khô rát, châm chích thì dòng serum này vô cùng dịu nhẹ, không tác dụng phụ, an toàn cả cả những làn da nhạy cảm nhất.</p>
+                    <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/10/Make9_1.1-1.png" alt="">
+                    <p><u>Thành phần:</u></p>
+                    <ul>
+                        <li><b>19% AHA</b>: loại bỏ tế bào chết và tái tạo lớp tế bào mới  trên cùng nhanh chóng. Làm mờ nếp nhăn, kích thích sản sinh collagen, làm trắng và đều màu da.</li>
+                        <li><b>0,5% BHA</b>: thâm nhập sâu vào bên trong da, làm sạch tế bào cũ và các chất gây bít tắc lỗ chân lông siêu hiệu quả, trị mụn, điều tiết dầu thừa, thu nhỏ lỗ chân lông, xóa mờ thâm nám.</li>
+                        <li><b>0,5% PHA</b>: làm sạch hoàn toàn tế bào chết trên bề mặt da, cung cấp độ ẩm sâu, chống lão hóa, cải thiện tông màu da, giúp da đều màu, trắng sáng.</li>
+                        <li><b>Đường đen</b>: làm sạch tế bào chết, cung cấp độ ẩm, cải thiện màu da, giúp da đều màu, trắng sáng, chống lão hóa</li>
+                        <li><b>Ceramide</b>:  tăng cường hàng rào bảo vệ da, giúp da phục hồi ngay sau khi peel</li>
+                        <li><b>Chiết xuất lô hội</b>: Cung cấp độ ẩm, giảm viêm và làm dịu làn da</li>
+                        <li><b>Cica Liposome</b>: Phục hồi và làm dịu da ngay lập tức, cấp ẩm sâu, ngừa mụn</li>
+                    </ul>
+                    <p>Với sự kết hợp của bộ 3 hoạt chất đặc trị AHA – BHA – PHA cùng tinh chất đường đen, serum mang đến hiệu quả gấp 10 lần so với các sản phẩm thông thường, có khả năng làm sạch cả trên bề mặt và các tầng da sâu phía dưới, mang đến làn da mịn màng đẹp không tì vết. </p>
+
+                <h3>Bước 2: Serum cấp nước chuyên sâu, dưỡng trắng – Hydration Brassica Ampoule</h3>
+                    <p>Sau khi tẩy da chết, làn da cần được bổ sung nước để làm dịu, tránh tình trạng làn da bị khô, bong tróc. Dòng tinh chất cấp nước chuyên sâu – <b>Hydration Brassica Ampoule</b> chứa thành phần bông cải xanh với hàm lượng vitamin C 
+                        cao gấp 2 lần so với chanh, không chỉ cung cấp độ ẩm tới từng tế bào mà còn giúp chống oxy hóa, ngăn ngừa viêm da, nhờ đó mà làn da luôn căng bóng, săn chắc, mịn màng. </p>
+                    <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/10/Make9_1.1.png" alt="">
+                    <p><u>Thành phần:</u></p>
+                    <ul>
+                        <li><b>78% chiết xuất Brassica</b>: giàu vitamin, giúp bổ sung độ ẩm tới từng tế bào da, để làn da luôn căng bóng, mịn màng</li>
+                        <li><b>Chiết xuất bông cải xanh</b>: Lượng vitamin C cao gấp 2 lần chanh, mờ thâm nám, kích thích sản sinh collagen giúp da căng khỏe. Cung cấp độ ẩm, chống oxy hóa, ngăn ngừa viêm da.</li>
+                        <li><b>Phức hợp 9 loại hoa trắng</b>: Chống oxy hóa, cấp ẩm tới từng tế bào, cải thiện cấu trúc da, mang tới làn da căng bóng, săn chắc, mịn màng từ sâu bên trong.</li>
+                    </ul>
+                    <p>Dòng tinh chất có kết cấu mỏng nhẹ, thấm nhanh, làm dịu da ngay lập tức. Bạn sẽ cảm nhận được sự dễ chịu và thoải mái sau khi sử dụng.</p>
+                <h3>Bước 3: Kem phục hồi, làm dịu, chống lão hóa – Hydration Peptide cream</h3>
+                    <p>Sau khi sử dụng tinh chất cấp ẩm, cần sử dụng kem dưỡng – Hydration Peptide cream để khóa ẩm cho làn da, hạn chế tình trạng tinh chất bị bay hơi. Dòng kem dưỡng này chứa 4 loại peptide, 
+                        không chỉ giúp bổ sung độ ẩm cho làn da mà còn tăng khả năng tái tạo gấp 4 lần, kích thích sản sinh collagen, làm đầy nếp nhăn và những vết sẹo lõm do mụn để lại.</p>
+                    <p>Ngoài ra, sản phẩm còn giúp kháng viêm, cấp ẩm, làm dịu da kích ứng nhờ sự kết hợp của rau má và 9 loại hoa trắng khác nhau. Từ đó, mang đến một làn da trắng sáng, căng mướt, đầy sức sống. </p>
+                    <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/10/Cream-1-768x538.png" alt="">
+                    <p><u>Thành phần:</u></p>
+                    <ul>
+                        <li><b>Peptide</b>: Kích thích làn da sản sinh collagen, đẩy nhanh quá trình tái tạo và phục hồi da, giúp mờ sẹo, làm đầy nếp nhăn, tăng độ đàn hồi cho làn da săn chắc hơn.</li>
+                        <li><b>Glycerin</b>: Cấp ẩm sâu, mang đến làn da căng mướt, mịn màng. Hỗ trợ điều trị mụn.</li>
+                        <li><b>Rau má</b>: Kháng viêm, cấp ẩm, làm dịu da kích ứng. Lành tính cho da nhạy cảm.</li>
+                        <li><b>Phức hợp 9 loài hoa trắng</b>: Chống lão hóa, làm đầy nếp nhăn, giúp da săn chắc từ sâu bên trong.</li>
+                    </ul>
+                    
+                <h3>Bước 4: Kem chống nắng dưỡng ẩm – Super Light Moisture Sun Cream SPF46 PA+++</h3>
+                    <p>Bước cuối cùng trong chu trình skincare là kem chống nắng. Sản phẩm sẽ giúp bảo vệ làn da khỏi tia UV gây hại, cải thiện tone da và giúp da căng mịn, đều màu hơn. 
+                        Bạn có thể sử dụng thay thế kem lót. Đảm bảo không bị cay mắt, làm bí da, phù hợp với làn da khô, thiếu ẩm.</p>
+                    <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/08/make-9-768x559.png" alt="">
+                    <p><u>Thành phần:</u></p>
+                    <ul>
+                        <li>TECASOME, PROBIO META G55, Lactobacillus, Panthenol cấp ẩm và làm dịu da ngay tức thì. Da luôn trong trạng thái no nước và được cấp ẩm sâu.</li>
+                        <li>Chiết xuất Bông cải xanh với Vitamin C và Vitamin E giúp nâng tone da, da sáng khoẻ, rạng rỡ và làm chậm quá trình lão hoá của da.</li>
+                        <li>Chiết Chiết xuất Rau má và Hyaluronic acid giúp cấp ẩm nhanh, làm dịu da và tăng cường hàng rào bảo vệ da.</li>
+                    </ul>
+            </section>
+        </div>
+    </div>                  
+    <!--newsdetail end-->
+
+    <!--footer-->
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Menu</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm bán chạy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm mới</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Dưỡng da</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Trang điểm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <a href="contact.html" class="footer__title"><h3 >Liên hệ</h3></a> 
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">
+                                    <i class="fas fa-map-marked-alt"></i> 12, Chùa Bộc, Quang Trung, Đống Đa, Hà Nội
+                                </span>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-phone"></i> 0378998765
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-envelope"></i> muoicosmetics@gmail.com
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <div class="social-group">
+                                <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-youtube"></i>  
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Modal Form -->
+<div class="ModalForm">
+    <!-- form signup -->
+    <div class="modal" id="my-Register">
+        <a href="#" class="overlay-close"></a>
+      <div class="authen-modal register">
+            <div class="signup">
+                <div class="signup__container">
+                    <h1>Đăng Ký</h1>
+                    <form action="">
+                    <!--<h5>Họ tên</h5>--> 
+                        <input id="username" type="text" class="input-signup-username" placeholder="Họ tên*"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-signup-email" placeholder="Email*"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-signup-password" placeholder="Password*"/>
+                        <!--<h5>Confirm Password</h5>-->
+                        <input id="confirmpassword" type="password" class="input-signup-confirmpassword" placeholder="Confirm Password*"/>
+                        
+                        <button id="btn" type="submit" class="signup__signInButton">Đăng Ký</button>
+                    </form>
+                    <a href="#my-Login" class="signup__registerButton">Đăng Nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- form login -->
+    <div class=" modal" id="my-Login">
+        <a href="#" class="overlay-close"></a>
+        <div class="authen-modal register">
+            <div class="login">
+                <div class="login__container">
+                    <h1>Đăng Nhập</h1>
+                    <form action="">
+                        <!--<h5>Họ tên</h5>-->
+                        <input id="username" type="text" class="input-login-username" placeholder="Họ tên*"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-login-email" placeholder="Email*"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-login-password" placeholder="Password*"/>
+                        <div class="forget">
+                            <label for=""><input type="checkbox" id="rememberMe" class="remember">Remember</label>
+                            <a href="#quenmatkhau">Forget password</a>
+                        </div>
+                        <button type="submit" class="login__signInButton">Đăng Nhập</button>
+                    </form>
+                    <a href="#my-Register" class="login__registerButton">Create a new account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="up-top" id="upTop" onclick="goToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</div>
+
+    <script>
+        $('.owl-carousel.hight').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+        $('.owl-carousel.news').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+        $('.owl-carousel.bands').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    </script>
+    <!-- Script common -->
+    <script src="assets/js/signup.js"></script>
+    <script src="assets/js/login.js"></script>
+    <script src="./assets/js/homeScript.js"></script>
+    <script src="./assets/js/commonscript.js"></script>
+    
+</body>
+</html>
+
+    

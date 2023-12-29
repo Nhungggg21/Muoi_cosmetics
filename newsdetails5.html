@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muoi Cosmetics</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <link href="./assets/owlCarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--newsdetails-->
+    <link rel="stylesheet" href="./assets/css/newsdetail.css">
+    <!-- Owl caroucel Js-->
+    <script src="./assets/owlCarousel/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <!--logo-->
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header_logo">
+                    <img src="./assets/img/Muối Cosmetics (3).png" alt="" class="logo" style="width: 200px; height: auto;">
+                    
+                </a>
+                <!--Thanh tìm kiếm-->
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Đăng ký đăng nhập-->
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Giỏ hàng -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">0</div>
+                    <div class="header__cart-wrap">
+                        <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a>
+                        <a href="pay.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="Gioithieu.html" class="header__nav-link">Hộp quà Kos</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="allproduct.html" class="header__nav-link">Sản Phẩm</a>
+                    <div class="sub-nav-wrap grid wide">
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Son</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-MAC.html" class="sub-nav__link">MAC</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-3CE.html" class="sub-nav__link">3CE</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-DIOR.html" class="sub-nav__link">Dior</a>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Cushion</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-April Skin.html" class="sub-nav__link">April Skin</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Missha.html" class="sub-nav__link">Missha</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Laneige.html" class="sub-nav__link">Laneige </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Phấn</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Maybelline.html" class="sub-nav__link">Maybelline</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Shiseido.html" class="sub-nav__link">Shiseido</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Innisfree.html" class="sub-nav__link">Innisfree</a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Kem dưỡng</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Neutrogena.html" class="sub-nav__link">Neutrogena </a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-CeraVe.html" class="sub-nav__link">CeraVe</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Klairs.html" class="sub-nav__link">Klairs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">Tin Tức</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/header end-->
+
+    <!--newsdetail-->
+    <div class="main">
+        <div class="grid wide">
+            <div class="main__taskbar">
+                <div class="main__breadcrumb">
+                    <div class="breadcrumb__item">
+                        <a href="index.html" class="breadcrumb__link">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="news.html" class="breadcrumb__link">Tin tức</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="newsdetails5.html" class="breadcrumb__link">Tẩy tế bào chết – Bí quyết cho làn da mịn màng</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tit">
+            <h1>Tẩy tế bào chết – Bí quyết cho làn da mịn màng</h1>
+                <p> By: Muối Cosmetics </p>
+            </div>
+
+            <section class="introduction">
+                <p><em>Mỗi ngày, da chúng ta sản sinh 5 tỷ tế bào mới thay cho lượng tế bào chết. 
+                    Nếu không được tẩy sạch, lượng tế bào chết này sẽ tạo thành lớp sừng sần sùi gây mất thẩm mỹ và cản trở chức năng da. Để da luôn tươi mới, tẩy da chết thường xuyên là điều vô cùng cần thiết. </em></p>
+                <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/11/Web-1.png" alt="">
+            </section>
+
+            <section class="schedule">
+                <h2>Lợi ích của việc tẩy da chết</h2>
+                    <p>Tẩy da chết là quá trình loại bỏ các tế bào chết trên bề mặt da. Thông thường, da của con người có cơ chế tự làm sạch và loại bỏ các tế bào da chết để nhường chỗ cho các tế bào mới sau khoảng 30 ngày hoặc lâu hơn. 
+                        Tuy nhiên, tế bào chết không rụng hoàn toàn và điều này có thể dẫn đến các mảng khô, bong tróc và bít tắc lỗ chân lông.</p>
+                    <p>Việc tẩy da chết thường xuyên sẽ giúp làn da trông sáng hơn và giúp tăng cường khả năng hấp thụ của da với các sản phẩm chăm sóc da. Khi tẩy da chết thường xuyên sẽ giúp ngăn ngừa tình trạng lỗ chân lông bị tắc nghẽn, giúp da giảm tình trạng nổi mụn trứng cá. 
+                        Tẩy da chết trong thời gian dài có thể tăng sản xuất collagen – Chìa khóa giúp làn da tươi sáng, tràn đầy sức sống, duy trì độ đàn hồi và giảm thiểu sự xuất hiện của nếp nhăn. </p>
+            </section>
+
+            <section class="services">
+                <h2>Gợi ý các sản phẩm tẩy da chết lành tính cho da</h2>
+                <p>Hiểu được vai trò của việc tẩy da chết thường xuyên, rất nhiều sản phẩm được các thương hiệu khác nhau tung ra thị trường. 
+                    Tuy nhiên, hiện trên thị trường có rất nhiều sản phẩm tẩy da chết, tuy nhiên, không phải sản phẩm nào cũng có thành phần và nồng độ phù hợp với làn da.</p>
+                <p>Dưới đây là 2 dòng sản phẩm tẩy da chết vừa có hiệu quả cao vừa đảm bảo sự an toàn, lành tính cho làn da.</p>
+                    <h3>1. Toner tẩy da chết AHA & BHA Home Peeling Liquid</h3>
+                    <p>Đây là dòng sản phẩm đa năng, vừa đóng vai trò làm sạch sâu, cân bằng độ pH của 1 toner vừa có khả năng tẩy da chết, giúp da sạch mịn, thông thoáng. </p>
+                    <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/11/RAB-Web-1.png" alt="">
+                    <p><u>Công dụng:</u></p>
+                    <ul>
+                        <li>Kết hợp sức mạnh của đồng thời 2 loại acid là 0,5% BHA và 5% AHA, hoạt động trên 2 tầng da, giúp điều trị mọi vấn đề của da một cách hiệu quả và an toàn.</li>
+                        <li>Thu nhỏ lỗ chân lông, điều tiết bã nhờn, tiêu diệt vi khuẩn gây mụn (Mụn ẩn, viêm,…) và ngăn mụn quay trở lại.</li>
+                        <li>Cải thiện tình trạng da thô ráp sần sùi, mang đến làn da trắng hồng, căng mịn.</li>
+                    </ul>
+                    <p><u>Thành phần:</u></p>
+                    <ul>
+                        <li><b>Salicylic Acid 0,5%</b>: giúp làm thông thoáng, se khít lỗ chân lông, điều tiết bã nhờn, kháng viêm, tiêu diệt các vi khuẩn gây mụn làm giảm mụn và ngăn ngừa mụn quay trở lại.</li>
+                        <li><b>Glycolic acid 5%</b>: cải thiện tình trạng mụn, giảm sự ảnh hưởng tiêu cực từ ánh mặt trời và chống lão hóa, ngăn ngừa sự xuất hiện của đốm nâu trên da.</li>
+                        <li><b>Arginine</b>: duy trì độ ẩm và quản lý kết cấu da khỏe mạnh.</li>
+                        <li><b>Panthenol</b>: một dẫn xuất của vitamin B5, giúp giữ ẩm, bảo vệ da và giảm viêm.</li>
+                        <li><b>Allantoin</b>: Một thành phần chiết xuất từ cây hoa chuông và củ cải đường, giúp làm dịu da.</li>
+                        <li><b>Dipotassium glycyrrhizate</b>: Hoạt chất chiết xuất từ rễ cây cam thảo, giúp làm dịu da.</li>
+                        <li><b>Sodium Hyaluronate</b>: Một loại polysaccharide thành phần bao gồm các axit amin và axit uronic. Nó có khả năng giữ ẩm tuyệt vời. Từ đó, duy trì độ ẩm và độ đàn hồi trên da.</li>
+                        <li><b>Alpha-bisabolol</b>: Một thành phần chiết xuất từ cây Candeia, giúp phục hồi da và làm dịu da.</li>
+                    </ul>
+                    <h3>2. Serum Peel Da Black Sugar</h3>
+                    <p>Black Sugar Peeling Serum là tinh chất tái tạo da sinh học thế hệ mới đến từ thương hiệu Make9, với nhiều ưu điểm vượt trội hơn hẳn so với các sản phẩm peel da thông thường. 
+                        Nếu như peel da thường gây bong tróc, khô rát, châm chích, kích ứng thì Black Sugar Peeling Serum lại dịu nhẹ, không tác dụng phụ, an toàn cho cả những làn da nhạy cảm nhất.</p>
+                        <img width="500px" src="https://myphamome.com/wp-content/uploads/2023/10/Make9_1.1-1.png" alt="">
+                        <p><u>Công dụng:</u></p>
+                        <ul>
+                            <li>Thu nhỏ lỗ chân lông</li>
+                            <li>Cải thiện tình trạng mụn, xóa mờ thâm da, giúp da đều màu</li>
+                            <li>Xóa mờ nếp nhăn, chống lão hóa</li>
+                            <li>Cung cấp độ ẩm, giúp da căng mọng, mịn mướt</li>
+                        </ul>
+                        <p><u>Thành phần:</u></p>
+                        <ul>
+                            <li><b>19% AHA</b>: loại bỏ tế bào chết và tái tạo lớp tế bào mới  trên cùng nhanh chóng. Làm mờ nếp nhăn, kích thích sản sinh collagen, làm trắng và đều màu da.</li>
+                            <li><b>0,5% BHA</b>: thâm nhập sâu vào bên trong da, làm sạch tế bào cũ và các chất gây bít tắc lỗ chân lông siêu hiệu quả, trị mụn, điều tiết dầu thừa, thu nhỏ lỗ chân lông, xóa mờ thâm nám.</li>
+                            <li><b>0,5% PHA</b>: làm sạch hoàn toàn tế bào chết trên bề mặt da, cung cấp độ ẩm sâu, chống lão hóa, cải thiện tông màu da, giúp da đều màu, trắng sáng.</li>
+                            <li><b>Đường đen</b>: làm sạch tế bào chết, cung cấp độ ẩm, cải thiện màu da, giúp da đều màu, trắng sáng, chống lão hóa.</li>
+                            <li><b>Ceramide</b>: tăng cường hàng rào bảo vệ da, giúp da phục hồi ngay sau khi peel.</li>
+                            <li><b>Chiết xuất lô hội</b>: Cung cấp độ ẩm, giảm viêm và làm dịu làn da.</li>
+                            <li><b>Cica Liposome</b>: Phục hồi và làm dịu da ngay lập tức, cấp ẩm sâu, ngừa mụn.</li>
+                        </ul>
+                        <p>Hy vọng bài viết trên đã giúp bạn hiểu hơn về những lợi ích của việc tẩy da chết, đồng thời tìm được sản phẩm phù hợp cho chu trình skincare của mình. </p>
+            </section>
+        </div>
+    </div>               
+    <!--newsdetail end-->
+
+    <!--footer-->
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Menu</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm bán chạy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm mới</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Dưỡng da</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Trang điểm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <a href="contact.html" class="footer__title"><h3 >Liên hệ</h3></a> 
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">
+                                    <i class="fas fa-map-marked-alt"></i> 12, Chùa Bộc, Quang Trung, Đống Đa, Hà Nội
+                                </span>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-phone"></i> 0378998765
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-envelope"></i> muoicosmetics@gmail.com
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <div class="social-group">
+                                <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-youtube"></i>  
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Modal Form -->
+<div class="ModalForm">
+    <!-- form signup -->
+    <div class="modal" id="my-Register">
+        <a href="#" class="overlay-close"></a>
+      <div class="authen-modal register">
+            <div class="signup">
+                <div class="signup__container">
+                    <h1>Đăng Ký</h1>
+                    <form action="">
+                    <!--<h5>Họ tên</h5>--> 
+                        <input id="username" type="text" class="input-signup-username" placeholder="Họ tên*"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-signup-email" placeholder="Email*"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-signup-password" placeholder="Password*"/>
+                        <!--<h5>Confirm Password</h5>-->
+                        <input id="confirmpassword" type="password" class="input-signup-confirmpassword" placeholder="Confirm Password*"/>
+                        
+                        <button id="btn" type="submit" class="signup__signInButton">Đăng Ký</button>
+                    </form>
+                    <a href="#my-Login" class="signup__registerButton">Đăng Nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- form login -->
+    <div class=" modal" id="my-Login">
+        <a href="#" class="overlay-close"></a>
+        <div class="authen-modal register">
+            <div class="login">
+                <div class="login__container">
+                    <h1>Đăng Nhập</h1>
+                    <form action="">
+                        <!--<h5>Họ tên</h5>-->
+                        <input id="username" type="text" class="input-login-username" placeholder="Họ tên*"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-login-email" placeholder="Email*"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-login-password" placeholder="Password*"/>
+                        <div class="forget">
+                            <label for=""><input type="checkbox" id="rememberMe" class="remember">Remember</label>
+                            <a href="#quenmatkhau">Forget password</a>
+                        </div>
+                        <button type="submit" class="login__signInButton">Đăng Nhập</button>
+                    </form>
+                    <a href="#my-Register" class="login__registerButton">Create a new account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="up-top" id="upTop" onclick="goToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</div>
+
+    <script>
+        $('.owl-carousel.hight').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+        $('.owl-carousel.news').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+        $('.owl-carousel.bands').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    </script>
+    <!-- Script common -->
+    <script src="assets/js/signup.js"></script>
+    <script src="assets/js/login.js"></script>
+    <script src="./assets/js/homeScript.js"></script>
+    <script src="./assets/js/commonscript.js"></script>
+    
+</body>
+</html>
+
+    
