@@ -1,4 +1,4 @@
-# Đề tài: Xây dựng trang web kinh doanh mỹ phẩm nội địa Hàn Quốc
+# Đề tài: Xây dựng trang web kinh doanh mỹ phẩm
 ## Nhóm 4
 ### Danh sách thành viên
 |Tên thành viên|MSV|
