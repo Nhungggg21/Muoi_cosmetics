@@ -1,0 +1,152 @@
+.main {
+    padding: 45px 0;
+    background-color: #f2f2f2;
+  }
+  
+  section{
+    font-size: 150%;
+  }
+  
+  html{
+    font-family: 'Roboto Slab', serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+  }
+  
+  
+  /* Định dạng tiêu đề chính */
+  
+  .tit h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600 ;
+    color: black ;
+    text-shadow: 2px 2px 4px rgba(218, 153, 153, 0.5);
+    margin-top: 20px;
+    margin-left: 20px; /* Khoảng cách phía trên */
+  }
+  /* Định dạng các section */
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Định dạng cho phần Giá*/
+  .tit p {
+    text-align: center;
+    font-weight: bold; /* Độ đậm cho văn bản */
+    font-size: 13px; /* Kích thước chữ */
+    color: gray ;
+    text-transform: uppercase; /* Chuyển đổi chữ thành chữ hoa */
+    margin-top: 10px; /* Khoảng cách phía trên */
+    margin-left: 20px; /* Khoảng cách phía trên */
+  }
+  
+  
+  /* Định dạng h2 trong các section */
+  section h2 {
+    font-size: 24px;
+    color: black;
+    flex: 3;
+    font-weight: bold;
+  }
+  
+  /* Định dạng h3 trong các section */
+  section h3 {
+    font-size: 18px;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Định dạng các đoạn văn bản */
+  section p {
+    line-height: 1.6;
+    margin-top: 10px;
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+      line-height: 2rem;
+      text-align: justify;
+      max-height: calc(20px * 6);
+      overflow: hidden;
+      display: block;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 6;
+  }
+  
+  section p u{
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  section p b{
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  section p em{
+    font-style: italic;
+    font-size: 1.7rem;
+  }
+  
+  /* Định dạng danh sách ul và li */
+  section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  section li {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 12px;
+  }
+  section li b{
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  /* Định dạng hình ảnh */
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  /*responsive*/
+  @media(max-width:1023px) {
+      .new-item__img {
+          flex: 1;
+      }
+      .new-item__body {
+          flex: 2;
+          margin-left: 20px;
+      }
+      .new-item__description {
+          max-height: calc(20px * 4);
+          -webkit-line-clamp: 4;
+      }
+  }
+  
+  @media(max-width:820px) {
+      .new-item {
+          display: block;
+      }
+      .new-item__body {
+          flex: 3;
+          margin-left: 0;
+          margin-top: 20px;
+      }
+      .main {
+          padding-left: 8px;
+          padding-right: 8px;
+      }
+  }

@@ -1,0 +1,28 @@
+.product__infobox {
+    padding: 12px 12px;
+}
+
+.product__namebox {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    height: calc(18px);
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.box {
+    background-color: white;
+    margin-top: 60px;
+    border-top: 2px solid #ffd0cc; /* 2 pixel độ rộng, dashed là loại đường viền nét đứt */
+}
+
+.box1 {
+    background-color: white;
+    margin-top: 10px;
+    border-top: 2px solid #ffd0cc; /* 2 pixel độ rộng, dashed là loại đường viền nét đứt */
+}

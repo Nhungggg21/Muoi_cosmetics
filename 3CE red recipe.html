@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3CE RED RECIPE</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Icon fontanwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- Reset css & grid sytem -->
+    <link rel="stylesheet" href="./assets/css/library.css">
+    <link href="./assets/owlCarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <!-- Layout -->
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--product-->
+    <link rel="stylesheet" href="./assets/css/product.css">
+    <link rel="stylesheet" href="./assets/css/productSale.css">
+    <!-- Owl caroucel Js-->
+    <script src="./assets/owlCarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <div class="header scrolling" id="myHeader">
+        <div class="grid wide">
+            <div class="header__top">
+                <!--logo-->
+                <div class="navbar-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html" class="header_logo">
+                    <img src="./assets/img/Muối Cosmetics (3).png" alt="" class="logo" style="width: 200px; height: auto;">
+                    
+                </a>
+                <!--Thanh tìm kiếm-->
+                <div class="header__search">
+                    <div class="header__search-wrap">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm">
+                        <a class="header__search-icon" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <!--Đăng ký đăng nhập-->
+                <div class="header__account">
+                    <a href="#my-Login" class="header__account-login">Đăng Nhập</a>
+                    <a href="#my-Register" class="header__account-register">Đăng Kí</a>
+                </div>
+                <!-- Giỏ hàng -->
+                <div class="header__cart have" href="#">
+                    <i class="fas fa-shopping-basket"></i>
+                    <div class="header__cart-amount">0</div>
+                    <div class="header__cart-wrap">
+                        <a href="cart.html" class="btn btn--default cart-btn">Xem giỏ hàng</a>
+                        <a href="pay.html" class="btn btn--default cart-btn orange">Thanh toán</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item nav__search">
+                    <div class="nav__search-wrap">
+                        <input class="nav__search-input" type="text" name="" id="" placeholder="Tìm sản phẩm...">
+                    </div>
+                    <div class="nav__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </li>
+                <li class="header__nav-item authen-form">
+                    <a href="#" class="header__nav-link">Tài Khoản</a>
+                    <ul class="sub-nav">
+                        <li class="sub-nav__item">
+                            <a href="#my-Login" class="sub-nav__link">Đăng Nhập</a>
+                        </li>
+                        <li class="sub-nav__item">
+                            <a href="#my-Register" class="sub-nav__link">Đăng Kí</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header__nav-item index">
+                    <a href="index.html" class="header__nav-link">Trang chủ</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="Gioithieu.html" class="header__nav-link">Hộp quà Kos</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="allproduct.html" class="header__nav-link">Sản Phẩm</a>
+                    <div class="sub-nav-wrap grid wide">
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Son</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-MAC.html" class="sub-nav__link">MAC</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-3CE.html" class="sub-nav__link">3CE</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="S-DIOR.html" class="sub-nav__link">Dior</a>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Cushion</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-April Skin.html" class="sub-nav__link">April Skin</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Missha.html" class="sub-nav__link">Missha</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="C-Laneige.html" class="sub-nav__link">Laneige </a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Phấn</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Maybelline.html" class="sub-nav__link">Maybelline</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Shiseido.html" class="sub-nav__link">Shiseido</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="P-Innisfree.html" class="sub-nav__link">Innisfree</a>
+                            </li>
+                        </ul>
+                        <ul class="sub-nav">
+                            <li class="sub-nav__item">
+                                <a href="" class="sub-nav__link heading">Kem dưỡng</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Neutrogena.html" class="sub-nav__link">Neutrogena </a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-CeraVe.html" class="sub-nav__link">CeraVe</a>
+                            </li>
+                            <li class="sub-nav__item">
+                                <a href="K-Klairs.html" class="sub-nav__link">Klairs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__nav-item">
+                    <a href="news.html" class="header__nav-link">Tin Tức</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="contact.html" class="header__nav-link">Liên Hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Content-->
+    <div class="main">
+        <div class="grid wide">
+            <div class="main__taskbar">
+                <div class="main__breadcrumb">
+                    <div class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__link">Trang chủ</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__link">3CE</a>
+                    </div>
+                    <div class="breadcrumb__item">
+                        <a href="#" class="breadcrumb__link">3CE RED RECIPE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="productInfo">
+                <div class="row">
+                    <div class="col l-5 m-12 s-12">
+                        <div class="owl-carousel owl-theme" id="sync1">
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/20.jpg)">
+                                </div>
+                            </a>
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/23.jpg)">
+                                </div>
+                            </a>
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/21.jpg)">
+                                </div>
+                            </a>
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/22.jpg)">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="owl-carousel owl-theme" id="sync2">
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/20.jpg)">
+                                </div>
+                            </a>
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/23.jpg)">
+                                </div>
+                            </a>
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/21.jpg)">
+                                </div>
+                            </a>
+                            <a href="#" class="product">
+                                <div class="product__avt" style="background-image: url(assets/img/22.jpg)">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col l-7 m-12s s-12 pl">
+                        <h3 class="productInfo__name">
+                            3CE RED RECIPE
+                        </h3>
+                        <div class="productInfo__price">
+                            <div class="priceInfo__unit">265.000 <span class="price__unit">đ</span></div> 
+                            <div class="price__old">320.000 <span class="price__unit">đ</span></div>
+                        </div>
+                        <div class="productInfo__description">
+                            <span> 3CE RED RECIPE </span> là dòng son kem lì mịn và nhẹ môi. Chất son kem nhẹ, lướt trên môi mềm mịn, mướt mượt, không gây khô, chẳng cần tới son dưỡng phù hợp với đôi môi khô. Last Velvet Lip Tint là một trong những dòng son hot nhất của BBIA. Đây chắc chắn là một thỏi son không nên bỏ lỡ trong năm nay của các chị em
+                        </div>
+                        <form class = "mid" >
+                            <label class = "kitu">Chọn loại</label>
+                            <select class = "kitu2" >
+                                <option>Chọn 1 tùy chọn</option>
+                                    <option> Macaron Red: Đỏ Tươi </option>
+                                    <option> Beige Avenue: Cam Đất </option>
+                                    <option> Immanence: Đỏ Lạnh Đậm </option>
+                                    <option> Carrot Pink: Hồng Cam Đất </option>
+                                    <option> Needful: Đỏ Cam Cháy </option>
+                                    <option> Active Lady: Hồng Cam </option>
+                                    <option> Live A Little: Đỏ Gạch </option>
+                            </select>
+                        </form>
+                        <div class="productInfo__addToCart">
+                            <div class="buttons_added">
+                                <input class="minus is-form" type="button" value="-" onclick="minusProduct()">
+                                <input aria-label="quantity" class="input-qty" max="10" min="1" name="" type="number" value="1">
+                                <input class="plus is-form" type="button" value="+" onclick="plusProduct()">
+                            </div>
+                            <a href="cart.html"><div class=" btn btn--default orange ">Thêm vào giỏ</div></a>
+                        </div>
+                        <div class="productIndfo__policy ">
+                            <div class="policy bg-1 ">
+                                <img src="./assets/img/policy/policy1.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Giao hàng miễn phí</h3>
+                                    <p class="productIndfo__policy-description ">Cho đơn hàng từ 300K</p>
+                                </div>
+                            </div>
+                            <div class="policy bg-2 ">
+                                <img src="./assets/img/policy/policy2.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Giao hàng miễn phí</h3>
+                                    <p class="productIndfo__policy-description ">Cho đơn hàng từ 300K</p>
+                                </div>
+                            </div>
+                            <div class="policy bg-1 ">
+                                <img src="./assets/img/policy/policy3.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Giao hàng miễn phí</h3>
+                                    <p class="productIndfo__policy-description ">Cho đơn hàng từ 300K</p>
+                                </div>
+                            </div>
+                            <div class="policy bg-2 ">
+                                <img src="./assets/img/policy/policy4.png " class="productIndfo__policy-img "></img>
+                                <div class="productIndfo__policy-info ">
+                                    <h3 class="productIndfo__policy-title ">Giao hàng miễn phí</h3>
+                                    <p class="productIndfo__policy-description ">Cho đơn hàng từ 300K</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="productIndfo__category ">
+                            <p class="productIndfo__category-text"> Danh mục : <a href="# " class="productIndfo__category-link ">Son</a></p>
+                            <p class="productIndfo__category-text"> Hãng : <a href="# " class="productIndfo__category-link ">3CE</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Mô tả sản phẩm-->  
+            <div  class="bordertext">
+                <div class="row">
+                    <div class="col l-6 sm-12" >
+                        <p class="mota2"><b class="bold">MÔ TẢ SẢN PHẨM</b></p>
+                        <p class = "ndtext"><b class="bold">3CE RED RECIPE </b> xách tay từ Hàn Quốc. Đảm bảo 100% về nguồn gốc và chất lượng từng sản phẩm đến tay khách hàng.</p>
+                        <p class = "ndtext"><b class="bold">3CE RED RECIPE</b> đã cải tiến tinh tế hơn khi kết hợp kết cấu son lì với dạng kem xôm xốp (creamy) mang lại cảm giác nhẹ môi, không nặng, không vón cục và không bị bột, khắc phục các khuyết điểm dễ gặp của các dòng son lì 3CE mắc phải trước đó.</p>
+                    </div> 
+                    <div class="col l-6 sm-12">
+                        <img class = "tomfordimg1" src ="assets/img/21.jpg"/>     
+                    </div>
+                </div>
+            </div>
+        <!--Phân loại sản phẩm-->
+        <div  class="padmidpink1">
+            <div class="bordertext">
+                <p class="mota"><b class ="bold">PHÂN LOẠI SẢN PHẨM</b></p>
+                <div class="row">
+                    <div class="col l-4 sm-12">
+                        <img class = "tomfordimg2" src ="assets/img/22.jpg"/>           
+                    </div>
+                    <div  class="col l-4 sm-12">
+                        <div class="paddingtop10">
+                            <ul>
+                                <p><b class = "bold">Macaron Red:</b> Đỏ Gạch</p>
+                                <p><b class = "bold">Beige Avenue:</b> Cam Cháy</p>
+                                <p><b class = "bold">Immanence:</b> Cam Đất</p>
+                                <p><b class = "bold">Carrot Pink:</b> Cam Đào</p>
+                                <p><b class = "bold">Active Lady:</b> Đỏ Đất</p>
+                                <p><b class = "bold">Needful:</b> Đỏ Tươi</p>
+                            </ul>                      
+                        </div> 
+                    </div>
+                    <div  class="col l-4 sm-12">
+                        <img class = "tomfordimg2" src ="assets/img/23.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Thông tin cơ bản-->
+        <div class="bordertext">
+            <div class="mota"><p>THÔNG TIN CƠ BẢN</p></div>
+            <table class="ndtext1">
+                <tr>
+                    <td> <b class ="bold1"> Chất son:</b></td>
+                    <td> Dạng son kem lì, không gây khô môi và chứa tinh chất vitamin E giúp dưỡng ẩm môi</td>
+                </tr>
+                <tr>
+                    <td> <b class ="bold1">HDSD: </b></td>
+                    <td> Thoa son trực tiếp lên môi</td>
+                </tr>
+                <tr>
+                    <td> <b class ="bold1">Bảo quản: </b></td>
+                    <td> Nơi khô ráo, thoáng mát và đóng kĩ nắp sản phẩm ngay sau khi đã sử dụng, tránh nhiệt độ cao</td>
+                </tr>
+                <tr>
+                    <td> <b class ="bold1">Chất son: </b></td>
+                    <td> Son kem thỏi lì</td>
+                </tr>
+                <tr>
+                    <td> <b class ="bold1">Xuất xứ: </b></td>
+                    <td> Hàn Quốc</td>
+                </tr>
+                <tr>
+                    <td> <b class ="bold1"> Texture: </b></td>
+                    <td> Kết cấu mềm mại, không bết dính, mềm mượt, không gây khô môi</td>
+                </tr>
+                </table>
+        </div>
+
+         <!--Đánh giá khách hàng-->
+        <div class = "padmidpink1">
+            <div class = "center">
+                <div class="bordertext" >
+                 <!--Để lại đánh giá-->
+                    <div class="comment">
+                        <div class="wrapper">
+                            <h3><b class = "mid">ĐỂ LẠI ĐÁNH GIÁ</b></h3>
+                            <form action = "#">
+                                <div class="rating">
+                                    <input type = "number" name = "rating" hidden>
+                                    <i class='bx bx-star star' style="--i: 0;"></i>
+                                    <i class='bx bx-star star' style="--i: 1;"></i>
+                                    <i class='bx bx-star star' style="--i: 2;"></i>
+                                    <i class='bx bx-star star' style="--i: 3;"></i>
+                                    <i class='bx bx-star star' style="--i: 4;"></i>
+                                </div>
+                                <textarea NAME = "opinion" cols = "30" rows="5" placeholder="Ý kiến đánh giá của bạn..."></textarea>
+                                <div class="btn-group">
+                                    <button type = "submit" class="btn submit">Gửi đánh giá</button>
+                                    <button type = "cancle" class="btn cancle">Hủy</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="mota"><b>ĐÁNH GIÁ KHÁCH HÀNG</b></p>
+                    </div>
+                    <!--Đánh giá 1-->
+                    <div class="bordertext1" style = "display:grid; grid-template-columns: 15% 85%; column-gap: 20px">
+                        <div class="center">
+                            <img class = "accountava" src="assets/img/ava1.jpg"/>
+                        </div>
+                        <div class = "danhgia">
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>     
+                            <div>
+                                <p class = "tendanhgia"><span style = "color: grey">3CE RED RECIPE </p></span>
+                            </div>
+                            <p class="ndtext"><i class ="italics">Vào mỗi sáng, tối sau khi thực hiện các bước làm sạch da, bôi dung dịch trị mụn trà tràm Naruko lên da, hoặc sau khi trang điểm dùng một lượng vừa đủ bôi trực tiếp lên nơi bị nổi mụn hoặc vùng da bị khiếm khuyết, thiên về ngăn ngừa hậu trị mụn."</i></p>
+                            <div>
+                                <p class="account">dhuon*****123</p>
+                                <p class="rvdate">05/08/2023</p>
+                            </div>
+                        </div>    
+                    </div>
+                    <!--Đánh giá 2-->
+                    <div class="bordertext" style ="display:grid; grid-template-columns: 15% 85%; column-gap: 20px">
+                        <div class="center">
+                            <img class = "accountava" src="assets/img/ava2.jpg"/>
+                        </div>
+                        <div class = "danhgia">
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>    
+                            <div>
+                                <p class = "tendanhgia"><span style = "color: grey">3CE RED RECIPE </p></span>
+                            </div>   
+                            <p class="ndtext"><i class ="italics">"Mua đến thỏi thứ 2 luôn rồi, rất ưng mẫu thiết kế và màu son"</i></p>
+                            <div>
+                                <p class="account">quoc*****123</p>
+                                <p class="rvdate">08/08/2023</p>
+                            </div>
+                        </div>    
+                    </div>
+                    <!--Đánh giá 3-->  
+                    <div class="bordertext" style ="display:grid; grid-template-columns: 15% 85%; column-gap: 20px">
+                        <div class="center">
+                            <img class = "accountava" src="assets/img/ava3.jpg"/>
+                        </div>
+                        <div class = "danhgia">
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>    
+                            <div>
+                                <p class = "tendanhgia"><span style = "color: grey">3CE RED RECIPE </p></span>
+                            </div> 
+                            <p class="ndtext"><i class ="italics">"Chất son đẹp vô cùng, đánh lên môi rất nhẹ và êm"</i></p>
+                            <div>
+                                <p class="account">vuxn*****12</p>
+                                <p class="rvdate">11/01/2021</p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <!--Đánh giá 4-->   
+                    <div class="bordertext" style ="display:grid; grid-template-columns: 15% 85%; column-gap: 20px">
+                        <div class="center">
+                            <img class = "accountava" src="assets/img/ava4.jpg"/>
+                        </div>
+                        <div class = "danhgia">
+                            <div class="star">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>     
+                            <div>
+                                <p class = "tendanhgia"><span style = "color: grey">3CE RED RECIPE </p></span>
+                            </div>
+                           <p class="ndtext"><i class ="italics">"Dùng sản phẩm rất thích, sẽ mua hàng tiếp lần tới"</i></p>
+                            <div>
+                                <p class="account">haid*****97</p>
+                                <p class="rvdate">08/01/2021</p>
+                            </div>
+                        </div>    
+                    </div>         
+                </div>
+            </div>
+        </div>
+
+
+<!--Bestseller  -->
+<div class="main__frame">
+    <div class="grid wide">
+        
+        <a href="Danhmuc1.html"><h3 class="category__heading">SẢN PHẨM LIÊN QUAN</h3></a>
+
+        <div class="owl-carousel hight owl-theme">
+            <div class="product">
+                <div class="product__avt" style="background-image: url(assets/img/product/Cushion/Laneige/Laneige-1.jpg)">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Laneige Water Sleeping Mask EX 70ml</h3>
+                    <div class="product__price">
+                        <div class="price__old">790.000 <span class="price__unit">đ</span></div>
+                        <div class="price__new">640.000 <span class="price__unit">đ</span></div>
+                    </div>
+                </div>
+                <div class="product__sale">
+                    <span class="product__sale-percent">19%</span>
+                    <span class="product__sale-text">Giảm</span>
+                </div>
+                <a href="LANEIGE WATER SLEEPING MARK.html" class="viewDetail">Xem chi tiết</a>
+                <a href="#" class="addToCart">Thêm vào giỏ</a>
+            </div>
+            
+            <div class="product">
+                <div class="product__avt" style="background-image: url(assets/img/product/Phan/Innisfree/Innisfree-1.jpg)">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Innisfree Blossom </h3>
+                    <div class="product__price">
+                        <div class="price__old">500.000 <span class="price__unit">đ</span></div>
+                        <div class="price__new">400.000 <span class="price__unit">đ</span></div>
+                    </div>
+                </div>
+                <div class="product__sale">
+                    <span class="product__sale-percent">20%</span>
+                    <span class="product__sale-text">Giảm</span>
+                </div>
+                <a href="INNISFREE JEJU CHERRY BLOSSOM TONE UP.html" class="viewDetail">Xem chi tiết</a>
+                <a href="#" class="addToCart">Thêm vào giỏ</a>
+            </div>
+            <div class="product">
+                <div class="product__avt" style="background-image: url(assets/img/product/Son/3ce/3ce-4.jpg)">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Son 3CE Velvet Lip Tint Go Now</h3>
+                    <div class="product__price">
+                        <div class="price__old">300.000 <span class="price__unit">đ</span></div>
+                        <div class="price__new">245.000 <span class="price__unit">đ</span></div>
+                    </div>
+                </div>
+                <div class="product__sale">
+                    <span class="product__sale-percent">18%</span>
+                    <span class="product__sale-text">Giảm</span>
+                </div>
+                <a href="3CE LIP TINT GO NOW.html" class="viewDetail">Xem chi tiết</a>
+                <a href="#" class="addToCart">Thêm vào giỏ</a>
+            </div>
+            <div class="product">
+                <div class="product__avt" style="background-image: url(assets/img/product/KemDuong/Klairs/Klairs-1.jpg)">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Kem Dưỡng Klairs Midnight Blue Calming Cream</h3>
+                    <div class="product__price">
+                        <div class="price__old">500.000 <span class="price__unit">đ</span></div>
+                        <div class="price__new">465.000 <span class="price__unit">đ</span></div>
+                    </div>
+                </div>
+                <div class="product__sale">
+                    <span class="product__sale-percent">7%</span>
+                    <span class="product__sale-text">Giảm</span>
+                </div>
+                <a href="Klairs Midnight Blue Calming Cream.html" class="viewDetail">Xem chi tiết</a>
+                <a href="#" class="addToCart">Thêm vào giỏ</a>
+            </div>
+            <div class="product">
+                <div class="product__avt" style="background-image: url(assets/img/product/Son/3ce/3ce-2.jpg)">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Son 3CE Cloud Lip Tint</h3>
+                    <div class="product__price">
+                        <div class="price__old">330.000 <span class="price__unit">đ</span></div>
+                        <div class="price__new">265.000 <span class="price__unit">đ</span></div>
+                    </div>
+                </div>
+                <div class="product__sale">
+                    <span class="product__sale-percent">17%</span>
+                    <span class="product__sale-text">Giảm</span>
+                </div>
+                <a href="3CE RED RECIPE.html" class="viewDetail">Xem chi tiết</a>
+                <a href="#" class="addToCart">Thêm vào giỏ</a>
+            </div>
+            <div class="product">
+                <div class="product__avt" style="background-image: url(assets/img/product/Phan/Innisfree/Innisfree-4.jpg)">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Innisfree Tone Up No Sebum Sunscreen EX SPF50/PA++++ 60ml</h3>
+                    <div class="product__price">
+                        <div class="price__old">299.000 <span class="price__unit">đ</span></div>
+                        <div class="price__new">269.000 <span class="price__unit">đ</span></div>
+                    </div>
+                </div>
+                <div class="product__sale">
+                    <span class="product__sale-percent">10%</span>
+                    <span class="product__sale-text">Giảm</span>
+                </div>
+                <a href="Innisfree Tone Up No Sebum Sunscreen EX.html" class="viewDetail">Xem chi tiết</a>
+                <a href="#" class="addToCart">Thêm vào giỏ</a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+<!--footer-->
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Menu</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm bán chạy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Sản phẩm mới</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Dưỡng da</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Trang điểm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Hỗ trợ khách hàng</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Giải đáp thắc mắc</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách mua hàng</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Chính sách đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 m-6 s-12">
+                    <h3 class="footer__title">Liên hệ</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <span class="footer__text">
+                                    <i class="fas fa-map-marked-alt"></i> 12, Chùa Bộc, Quang Trung, Đống Đa, Hà Nội
+                                </span>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-phone"></i> 0378998765
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <i class="fas fa-envelope"></i> muoicosmetics@gmail.com
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <div class="social-group">
+                                <a href="#" class="social-item"><i class="fab fa-facebook-f"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-twitter"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-invision"></i>
+                                    </a>
+                                <a href="#" class="social-item"><i class="fab fa-youtube"></i>  
+                                    </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Form -->
+<div class="ModalForm">
+    <div class="modal" id="my-Register">
+        <a href="#" class="overlay-close"></a>
+      <div class="authen-modal register">
+            <!-- form signup -->
+            <div class="signup">
+                <div class="signup__container">
+                    <h1>Đăng Ký</h1>
+                    <form action="">
+                    <!--<h5>Họ tên</h5>--> 
+                        <input id="username" type="text" class="input-signup-username" placeholder="Họ tên"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-signup-email" placeholder="Email"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-signup-password" placeholder="Password"/>
+                        <!--<h5>Confirm Password</h5>-->
+                        <input id="confirmpassword" type="password" class="input-signup-confirmpassword" placeholder="Confirm Password"/>
+                        
+                        <button id="btn" type="submit" class="signup__signInButton">Đăng Ký</button>
+                    </form>
+                    <a href="#my-Login" class="signup__registerButton">Đăng Nhập</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" modal" id="my-Login">
+        <a href="#" class="overlay-close"></a>
+       <div class="authen-modal register">
+            <!-- form login -->
+            <div class="login">
+                <div class="login__container">
+                    <h1>Đăng Nhập</h1>
+                    <form action="">
+                        <!--<h5>Họ tên</h5>-->
+                        <input id="username" type="text" class="input-login-username" placeholder="Họ tên"/>
+                        <!--<h5>Email</h5>-->
+                        <input id="email" type="text" class="input-login-email" placeholder="Email"/>
+                        <!--<h5>Password</h5>-->
+                        <input id="password" type="password" class="input-login-password" placeholder="Password"/>
+                        <label for="rememberMe">
+                            <input type="checkbox" id="rememberMe" class="remember"> Remember Password
+                        </label>
+                        <button type="submit" class="login__signInButton">Đăng Nhập</button>
+                    </form>
+                    <a href="#my-Register" class="login__registerButton">Create a new account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="up-top" id="upTop" onclick="goToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+</div>
+    
+    <script>
+        $(document).ready(function() {
+            var sync1 = $("#sync1 ");
+            var sync2 = $("#sync2 ");
+            var slidesPerPage = 4;
+            var syncedSecondary = true;
+            sync1.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 20,
+                nav: true,
+                dots: false,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true
+            })
+            sync2
+                .on('initialized.owl.carousel', function() {
+                    sync2.find(".owl-item ").eq(0).addClass("current ");
+                })
+                .owlCarousel({
+                    items: 4,
+                    dots: false,
+                    nav: false,
+                    margin: 30,
+                    smartSpeed: 200,
+                    slideSpeed: 500,
+                    slideBy: 4,
+                    responsiveRefreshRate: 100
+                }).on('changed.owl.carousel', syncPosition2);
+
+            function syncPosition(el) {
+                var count = el.item.count - 1;
+                var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+
+                if (current < 0) {
+                    current = count;
+                }
+                if (current > count)  {
+                    current = 0;
+                }
+
+                //end block
+
+                sync2
+                    .find(".owl-item ")
+                    .removeClass("current ")
+                    .eq(current)
+                    .addClass("current ");
+                var onscreen = sync2.find('.owl-item.active').length - 1;
+                var start = sync2.find('.owl-item.active').first().index();
+                var end = sync2.find('.owl-item.active').last().index();
+
+                if (current > end) {
+                    sync2.data('owl.carousel').to(current, 100, true);
+                }
+                if (current < start) {
+                    sync2.data('owl.carousel').to(current - onscreen, 100, true);
+                }
+            }
+
+            function syncPosition2(el) {
+                if (syncedSecondary) {
+                    var number = el.item.index;
+                    sync1.data('owl.carousel').to(number, 100, true);
+                }
+            }
+
+            sync2.on("click ", ".owl-item ", function(e) {
+                e.preventDefault();
+                var number = $(this).index();
+                sync1.data('owl.carousel').to(number, 300, true);
+            });
+        });
+
+        $('.owl-carousel.hight').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    </script>
+    <script>
+        $('.owl-carousel.hight').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+        $('.owl-carousel.news').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        })
+        $('.owl-carousel.bands').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items:6
+                }
+            }
+        })
+    </script>
+    <!-- Script common -->
+    <script src="./assets/js/homeScript.js"></script>
+    <script src="./assets/js/commonscript.js"></script>
+</body>
+
+</html>
