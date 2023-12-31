@@ -44,9 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Chức năng xử lý nút thanh toán nhấp chuột
     function handleCheckoutClick() {
         if (validateForm()) {
-            // Form is valid, proceed with checkout
+            // Biểu mẫu hợp lệ, tiến hành thanh toán
             showMessage("Đơn hàng của bạn đã được đặt thành công!");
-            // You can add additional logic here for submitting the form or other actions.
         }
     }
 
