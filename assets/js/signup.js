@@ -1,51 +1,19 @@
-// validation form register and register user local storage
-//const inputUsernameRegister = document.querySelector(".input-signup-username");
-//const inputEmailRegister = document.querySelector(".input-signup-email");
-//const inputPasswordRegister = document.querySelector(".input-signup-password");
-//const inputConfirmPasswordRegister = document.querySelector(".input-signup-confirmpassword");
-//const btnRegister = document.querySelector(".signup__signInButton");
 
-// validation form register and register user local storage
-
-//btnRegister.addEventListener("click", (e) => {
-  //e.preventDefault();
-  //if (
-   // inputUsernameRegister.value === "" ||
-    //inputEmailRegister.value === "" ||
-    //inputPasswordRegister.value === "" ||
-    //inputConfirmPasswordRegister.value === ""
-  //) {
-    //alert("vui lòng không để trống");
-  //} else {
-    // array user
-  //  const user = {
-  //    username: inputUsernameRegister.value,
-  //    email: inputEmailRegister.value,
-  //    password: inputPasswordRegister.value,
-  //    confirmpassword: inputConfirmPasswordRegister.value,
-  //  };
-  //  let json = JSON.stringify(user);
-   // localStorage.setItem(inputUsernameRegister, json);
-   // alert("Đăng Ký Thành Công");
-  //  window.location.href = "login.html";
- // }
-//});
-
-// validation form register and register user local storage
+// Biểu mẫu xác thực Đăng ký và đăng ký bộ nhớ cục bộ của người dùng
 const inputUsernameRegister = document.querySelector(".input-signup-username");
 const inputEmailRegister = document.querySelector(".input-signup-email");
 const inputPasswordRegister = document.querySelector(".input-signup-password");
 const inputConfirmPasswordRegister = document.querySelector(".input-signup-confirmpassword");
 const btnRegister = document.querySelector(".signup__signInButton");
 
-// Regular expression for a simple check of @gmail.com format
+// Biểu thức chính quy để kiểm tra đơn giản định dạng @gmail.com
 const emailRegex = /^[a-zA-Z0-9._-]+@gmail\.com$/;
 
-// validation form register and register user local storage
+// Biểu mẫu xác thực Đăng ký và đăng ký bộ nhớ cục bộ của người dùng
 btnRegister.addEventListener("click", (e) => {
   e.preventDefault();
 
-  // Check if any field is empty
+  // Kiểm tra xem có trường nào trống không
   if (
     inputUsernameRegister.value === "" ||
     inputEmailRegister.value === "" ||
@@ -59,17 +27,17 @@ btnRegister.addEventListener("click", (e) => {
   } else if (!emailRegex.test(inputEmailRegister.value)) {
     alert("Email nhập sai định dạng. Vui lòng nhập lại với định dạng @gmail.com");
   } else {
-    // Create a user object
+    // Tạo đối tượng người dùng
     const user = {
       username: inputUsernameRegister.value,
       email: inputEmailRegister.value,
       password: inputPasswordRegister.value,
     };
 
-    // Use the username or email as the key for localStorage
+    // Sử dụng tên người dùng hoặc email làm khóa cho localStorage
     const localStorageKey = user.username || user.email;
 
-    // Convert the user object to JSON and store it in localStorage
+    // Chuyển đổi đối tượng người dùng thành JSON và lưu trữ nó trong localStorage
     localStorage.setItem(localStorageKey, JSON.stringify(user));
 
     alert("Đăng ký thành công");
