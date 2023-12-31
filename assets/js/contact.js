@@ -11,20 +11,20 @@
     submitButton.addEventListener('click', function (e) {
       e.preventDefault();
 
-      // Validate form fields
+      // Xác thực các trường biểu mẫu
       if (!nameInput.value || !addressInput.value || !telephoneInput.value || !messageTextarea.value) {
         alert('Vui lòng điền đầy đủ thông tin');
         return;
       }
 
-      // Validate telephone format
+      // Xác thực định dạng điện thoại
       const telephoneRegex = /^0\d{9}$/;
       if (!telephoneRegex.test(telephoneInput.value)) {
         alert('Số điện thoại nhập sai định dạng. Vui lòng nhập lại');
         return;
       }
 
-      // Create an object with form data
+      // Tạo một đối tượng với dữ liệu biểu mẫu
       const formData = {
         name: nameInput.value,
         email: emailInput.value,
@@ -33,9 +33,7 @@
         message: messageTextarea.value,
       };
 
-      // You can perform additional actions with the form data here, such as sending it to a server
-
-      // Clear form fields after submission
+      // Xóa các trường biểu mẫu sau khi gửi
       nameInput.value = '';
       emailInput.value = '';
       addressInput.value = '';
