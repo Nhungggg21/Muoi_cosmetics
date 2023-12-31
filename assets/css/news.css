@@ -1,5 +1,5 @@
 .main {
-    padding: 50px 0 0 0;
+    padding: 45px 0;
     background-color: #f2f2f2;
 }
 
@@ -63,6 +63,8 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 6;
 }
+
+/*responsive**/
 
 @media(max-width:1023px) {
     .new-item__img {
