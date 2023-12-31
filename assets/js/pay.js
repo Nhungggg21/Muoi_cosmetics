@@ -1,11 +1,11 @@
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Function to display a message
+    // Chức năng hiển thị tin nhắn
     function showMessage(message) {
         alert(message);
     }
 
-    // Function to validate the form
+    // Chức năng xác thực biểu mẫu
     function validateForm() {
         var fullName = document.getElementById('fullName');
         var address = document.getElementById('address');
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return isValid;
     }
 
-    // Function to handle checkout button click
+    // Chức năng xử lý nút thanh toán nhấp chuột
     function handleCheckoutClick() {
         if (validateForm()) {
             // Form is valid, proceed with checkout
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Attach event listener to the checkout button
+    // Đính kèm trình nghe sự kiện vào nút thanh toán
     var checkoutBtn = document.getElementById('checkoutBtn');
     checkoutBtn.addEventListener('click', handleCheckoutClick);
 });
