@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Chức năng xử lý nút thanh toán nhấp chuột
     function handleCheckoutClick() {
         if (validateForm()) {
-            // Biểu mẫu hợp lệ, tiến hành thanh toán
             showMessage("Đơn hàng của bạn đã được đặt thành công!");
         }
     }
@@ -53,4 +52,3 @@ document.addEventListener("DOMContentLoaded", function () {
     var checkoutBtn = document.getElementById('checkoutBtn');
     checkoutBtn.addEventListener('click', handleCheckoutClick);
 });
-
