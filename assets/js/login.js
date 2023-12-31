@@ -1,10 +1,10 @@
-// validation form login
+// Đăng nhập biểu mẫu xác thực
 const inputUsername = document.querySelector(".input-login-username");
 const inputEmail = document.querySelector(".input-login-email");
 const inputPassword = document.querySelector(".input-login-password");
 const btnLogin = document.querySelector(".login__signInButton");
 
-// validation form login
+// Đăng nhập biểu mẫu xác thực
 
 btnLogin.addEventListener("click", (e) => {
   e.preventDefault();
