@@ -1,5 +1,5 @@
 .main {
-    padding: 30px;
+    padding: 60px;
 }
 
 .pay-information {
@@ -59,6 +59,26 @@
 .pay-order .btn {
     margin-top: 20px;
     width: 100%;
+}
+
+.form-label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--black-cl-2);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.form-control {
+    height: 35px;
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    padding: 8px 12px;
 }
 
 @media (max-width: 1023px) {
